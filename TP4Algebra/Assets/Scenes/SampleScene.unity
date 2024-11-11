@@ -154,7 +154,6 @@ MonoBehaviour:
   fov: 90
   farDistance: 20
   nearDistance: 0.3
-  size: 5
   tanAngle: 0
   aspectRatio: {x: 16, y: 9}
   listObj:
@@ -343,7 +342,6 @@ GameObject:
   - component: {fileID: 272136239}
   - component: {fileID: 272136238}
   - component: {fileID: 272136237}
-  - component: {fileID: 272136236}
   m_Layer: 0
   m_Name: plane
   m_TagString: Untagged
@@ -351,25 +349,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &272136236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 272136235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79c63eda2ded3604a8763a2f43792c01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  origin: {x: 0, y: 0, z: 0}
-  size: {x: 0, y: 0, z: 0}
-  meshFilter: {fileID: 0}
-  vertices: []
-  boxVertices: []
-  minV: {x: 0, y: 0, z: 0}
-  maxV: {x: 0, y: 0, z: 0}
 --- !u!23 &272136237
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -808,8 +787,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 10
-  field of view: 58.704002
+  far clip plane: 1000
+  field of view: 58.68609
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
