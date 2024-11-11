@@ -1,7 +1,7 @@
 ## TP_04_Algebra
 
 #Integrantes
-Claudio Emanuel Guzmeroli Parajon : Dueño del repo.
-Ezequiel Prieto.
-Jonas Canaza.
-Lucio Stefano Piccioni.
+1.Claudio Emanuel Guzmeroli Parajon : ##Dueño##
+2.Ezequiel Prieto.
+3.Jonas Canaza.
+4.Lucio Stefano Piccioni.
