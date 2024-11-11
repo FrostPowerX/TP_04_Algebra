@@ -11,8 +11,8 @@ public class FrustrumCulling : MonoBehaviour
     [SerializeField] private float size;
     [SerializeField] private float tanAngle;
 
-    [SerializeField] private Vector3 sizeP1;
-    [SerializeField] private Vector3 sizeP2;
+    //[SerializeField] private Vector3 sizeP1;
+    //[SerializeField] private Vector3 sizeP2;
     [SerializeField] private Vector2 aspectRatio;
 
     [SerializeField] private List<GameObject> listObj = new List<GameObject>();
@@ -121,6 +121,7 @@ public class FrustrumCulling : MonoBehaviour
         corners[7] = IntersectThreePlanes(frustumPlanes[0], frustumPlanes[3], frustumPlanes[5]); // Far Bottom Left
 
         Gizmos.color = Color.green;
+
         for (int i = 0; i < 4; i++)
         {
             Gizmos.DrawLine(corners[i], corners[(i + 1) % 4]);
